@@ -53,5 +53,6 @@ function playAGame(playerChoice){
         cScore = 0;
         playerScore.textContent = `Player score: 0`;
         computerScore.textContent = `Computer score: 0`;
+        resultDisplay.textContent = `It's a tie!`;
     });
 }
